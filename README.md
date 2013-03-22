@@ -7,7 +7,7 @@ between ringtone profiles
 
 Why
 ----
-As, university students we are faced with the problem of switching our phones
+As university students we are faced with the problem of switching our phones
 to silent before lectures and tutorials. The problem is that we forget to
 switch them back to their original profile. The biggest problem is that we often
 miss important calls due to this.
@@ -17,8 +17,7 @@ Contributers
 -------------
 (in alphabetic order -- to avoid conflict)
 
-AdeebNqo(Zola Mahlaza)
-Enzyoh (Menzi Motsa)
+AdeebNqo(Zola Mahlaza), Enzyoh (Menzi Motsa)
 
 Licence Notice
 ---------------
