@@ -4,11 +4,83 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity" >
 
-    <TextView
+    <LinearLayout
+        android:id="@+id/linearLayout1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        android:text="@string/hello_world" />
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/Event_Name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Event_Name" />
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="22dp"
+            android:layout_marginBottom="20dp"
+            android:ems="10" >
+        </EditText>
+
+        <TextView
+            android:id="@+id/Event_Time"
+            android:layout_width="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_height="wrap_content"
+            android:text="@string/Event_Time" />
+
+        <TimePicker
+            android:id="@+id/timePicker1"
+            android:layout_width="wrap_content"
+			android:layout_marginBottom="20dp"
+            android:layout_height="wrap_content" />
+        
+        <TextView
+            android:id="@+id/Event_Type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Event_Type" />
+                
+                
+        <RadioGroup
+        android:id="@+id/radioGroup1"
+        android:layout_width="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_height="wrap_content" >
+
+        <RadioButton
+            android:id="@+id/radio0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/Lecture" />
+
+        <RadioButton
+            android:id="@+id/radio1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Tutorial" />
+
+        <RadioButton
+            android:id="@+id/radio2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Other" />
+        
+    </RadioGroup>
+    
+         <Button
+        android:id="@+id/button1"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Done" />
+    </LinearLayout>
+
 
 </RelativeLayout>
