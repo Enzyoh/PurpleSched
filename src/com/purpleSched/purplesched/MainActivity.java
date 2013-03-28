@@ -1,8 +1,6 @@
 package com.purpleSched.purplesched;
 
 import android.app.Activity;
-import android.content.Context;
-import android.media.AudioManager;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.View;
@@ -11,7 +9,6 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.RadioGroup;
 import android.widget.TimePicker;
-import android.widget.Toast;
 
 public class MainActivity extends Activity {
 
@@ -29,9 +26,6 @@ public class MainActivity extends Activity {
          * 
          */
         final Scheduler eScheduler = new Scheduler();
-        AudioManager am= (AudioManager) getBaseContext().getSystemService(Context.AUDIO_SERVICE);
-        Sound x = new Sound(am);
-        x.vibrate();
         
         /*
          * Retrieving buttons, time picker, etc
@@ -47,7 +41,6 @@ public class MainActivity extends Activity {
 
 			@Override
 			public void onClick(View v) {
-				// TODO Auto-generated method stub
 				/*
 				 * Getting the event 'specifications'
 				 */
@@ -65,7 +58,7 @@ public class MainActivity extends Activity {
 					break;
 				}
 				String eTime = tp.getCurrentHour()+":"+tp.getCurrentMinute();
-				//creating a record
+				//creating and scheduling a record
 				Record eRecord = new Record(eName,eTime,eType);
 				eScheduler.schedule(eRecord);
 			}

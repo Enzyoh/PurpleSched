@@ -4,7 +4,7 @@ public class Database {
 	public Database(){
 		
 	}
-	public void store(){
+	public void store(Record someRecord){
 		
 	}
 	public Record[] getRecords(){
