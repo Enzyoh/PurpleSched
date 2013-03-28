@@ -54,20 +54,20 @@
         android:layout_height="wrap_content" >
 
         <RadioButton
-            android:id="@+id/radio0"
+            android:id="@+id/lecture"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="true"
             android:text="@string/Lecture" />
 
         <RadioButton
-            android:id="@+id/radio1"
+            android:id="@+id/tutorial"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/Tutorial" />
 
         <RadioButton
-            android:id="@+id/radio2"
+            android:id="@+id/other"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/Other" />
