@@ -14,7 +14,7 @@ public class MainActivity extends Activity {
         setContentView(R.layout.activity_main);
         AudioManager am= (AudioManager) getBaseContext().getSystemService(Context.AUDIO_SERVICE);
         Sound x = new Sound(am);
-        x.silent();
+        x.vibrate();
     }
 
     @Override
