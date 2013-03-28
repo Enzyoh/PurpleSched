@@ -17,14 +17,14 @@ public final class R {
         public static final int Event_Name=0x7f070001;
         public static final int Event_Time=0x7f070003;
         public static final int Event_Type=0x7f070005;
-        public static final int button1=0x7f07000a;
-        public static final int editText1=0x7f070002;
+        public static final int done=0x7f07000a;
+        public static final int event_name_textbox=0x7f070002;
         public static final int linearLayout1=0x7f070000;
         public static final int menu_settings=0x7f07000b;
         public static final int radio0=0x7f070007;
         public static final int radio1=0x7f070008;
         public static final int radio2=0x7f070009;
-        public static final int radioGroup1=0x7f070006;
+        public static final int radiogroup_buttons=0x7f070006;
         public static final int timePicker1=0x7f070004;
     }
     public static final class layout {

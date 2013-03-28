@@ -19,7 +19,7 @@
             android:text="@string/Event_Name" />
 
         <EditText
-            android:id="@+id/editText1"
+            android:id="@+id/event_name_textbox"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="22dp"
@@ -48,7 +48,7 @@
                 
                 
         <RadioGroup
-        android:id="@+id/radioGroup1"
+        android:id="@+id/radiogroup_buttons"
         android:layout_width="wrap_content"
         android:layout_marginBottom="20dp"
         android:layout_height="wrap_content" >
@@ -75,7 +75,7 @@
     </RadioGroup>
     
          <Button
-        android:id="@+id/button1"
+        android:id="@+id/done"
         style="?android:attr/buttonStyleSmall"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
