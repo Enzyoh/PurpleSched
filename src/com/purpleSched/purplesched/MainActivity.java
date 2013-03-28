@@ -41,12 +41,13 @@ public class MainActivity extends Activity {
         event_name = (EditText)findViewById(R.id.event_name_textbox);
         event_type_buttons = (RadioGroup)findViewById(R.id.radiogroup_buttons);
         done = (Button)findViewById(R.id.done);
+        
         done.setOnClickListener(new OnClickListener(){
 
 			@Override
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
-				Toast.makeText(getApplicationContext(), "H: "+tp.getCurrentHour()+" M: "+tp.getCurrentMinute(), Toast.LENGTH_LONG).show();
+				String eName = event_name.getText().toString();
 			}
         	
         });
